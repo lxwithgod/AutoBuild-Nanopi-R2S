@@ -132,7 +132,7 @@ jobs:
       - name: Build OpenWrt
         run: |
           cd friendlywrt-rk3399
-          ./build.sh nanopi_r2s.mk
+          ./build.sh nanopi_m4.mk
       
       - name: Zip Files
         run: |
